@@ -1,0 +1,1 @@
+If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
