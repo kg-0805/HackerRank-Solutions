@@ -17,6 +17,7 @@ public class Solution {
         Map<Long, Long> potential = new HashMap<>();
         Map<Long, Long> counter = new HashMap<>();
         long count = 0;
+        for (int i = 0; i < arr.size(); i++) {
             long a = arr.get(i);
             long key = a / r;
             
