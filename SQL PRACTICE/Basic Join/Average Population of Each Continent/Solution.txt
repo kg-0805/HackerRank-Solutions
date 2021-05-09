@@ -1,0 +1,8 @@
+select
+    co.continent, trunc(avg(ci.population))
+from
+    city ci
+    join country co on (co.code = ci.countrycode)
+group by
+    co.continent
+;

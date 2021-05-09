@@ -1,0 +1,11 @@
+SELECT
+IF (Grade >= 8, Name, NULL),
+Grade,
+Marks
+FROM
+(SELECT
+Name,
+(SELECT Grade FROM Grades WHERE (Min_Mark <= Marks) AND (Marks <= Max_Mark)) AS Grade,
+Marks
+FROM Students) As MyStudents
+ORDER BY Grade DESC, Name;

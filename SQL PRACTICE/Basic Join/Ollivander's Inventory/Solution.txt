@@ -1,0 +1,29 @@
+/*
+Enter your query here.
+*/
+select
+B.id,B.age,B.coins_needed,B.power
+from
+(select
+Wands.power power,
+Wands_Property.age age,
+min(coins_needed) coins_needed
+from
+Wands left join Wands_Property on Wands.code = Wands_Property.code
+where
+Wands_Property.is_evil = 0
+group by power,age) A
+left join
+(
+select 
+Wands.id,
+Wands.power power,
+Wands_Property.age age,
+Wands.coins_needed
+from Wands left join Wands_Property on Wands.code = Wands_Property.code
+where Wands_Property.is_evil = 0
+) B
+using(power,age,coins_needed)
+order by
+power desc,
+age desc;

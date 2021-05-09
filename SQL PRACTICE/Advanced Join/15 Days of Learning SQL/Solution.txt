@@ -1,0 +1,41 @@
+WITH SUBS_DAY AS (
+SELECT
+    submission_date
+    ,hacker_id
+    ,name
+    ,COUNT(*) AS subs
+FROM
+    SUBMISSIONS s
+    LEFT JOIN HACKERS h
+        USING(hacker_id)
+GROUP BY
+    submission_date
+    ,hacker_id
+    ,name
+)
+, CONSEC AS (
+SELECT
+     hacker_id
+    ,name
+    ,submission_date
+    ,subs
+FROM SUBS_DAY
+START WITH submission_date = DATE '2016-03-01'
+CONNECT BY 
+    PRIOR submission_date = submission_date - 1
+    AND PRIOR hacker_id = hacker_id
+)
+SELECT
+    sd.submission_date
+    ,COUNT(c.hacker_id) AS dist_hacker_subs
+    ,MIN(sd.hacker_id) KEEP (DENSE_RANK LAST ORDER BY sd.subs) AS best_hacker_id
+    ,MIN(sd.name) KEEP (DENSE_RANK FIRST ORDER BY sd.subs DESC, sd.hacker_id) AS best_hacker_name
+FROM
+    CONSEC c
+    RIGHT JOIN SUBS_DAY sd
+        ON c.submission_date = sd.submission_date
+        AND c.hacker_id = sd.hacker_id
+GROUP BY
+    sd.submission_date
+ORDER BY
+    submission_date;

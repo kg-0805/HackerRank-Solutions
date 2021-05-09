@@ -1,0 +1,15 @@
+
+WITH NumberedPairs (R, X, Y)
+AS
+(
+    SELECT ROW_NUMBER() OVER (ORDER BY X) AS R,
+    X, Y FROM Functions
+)
+SELECT
+ DISTINCT X, 
+ (SELECT X FROM NumberedPairs WHERE FOuter.X = Y AND X = FOuter.Y AND R <> FOuter.R)
+FROM NumberedPairs AS FOuter
+WHERE
+ EXISTS(SELECT Y FROM NumberedPairs WHERE FOuter.X = Y AND X = FOuter.Y AND R <> FOuter.R) AND
+ X <= (SELECT X FROM NumberedPairs WHERE FOuter.X = Y AND X = FOuter.Y AND R <> FOuter.R)
+ORDER BY X;

@@ -1,0 +1,27 @@
+WITH SUBS AS (
+SELECT
+    hacker_id
+    ,challenge_id
+    ,MAX(score) AS best_score
+FROM
+    SUBMISSIONS
+WHERE
+    score > 0
+GROUP BY
+     hacker_id
+    ,challenge_id
+)
+SELECT
+    hacker_id
+    ,name
+    ,SUM(s.best_score) AS total_score
+FROM
+    HACKERS h
+    JOIN SUBS s
+        USING(hacker_id)
+GROUP BY
+    hacker_id
+    ,name
+ORDER BY
+    total_score DESC
+    ,hacker_id;
