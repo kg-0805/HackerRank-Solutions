@@ -7,3 +7,8 @@
 | Sum and Difference of Two Numbers | Basic | Easy | 5 | [Hackerrank](https://www.hackerrank.com/challenges/sum-numbers-c) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/C%20PRACTICE/Introduction/Sum%20and%20Difference%20of%20Two%20Numbers/Solution.c) |
 | Functions in C | Basic | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/functions-in-c) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/C%20PRACTICE/Introduction/Functions%20in%20C/Solution.c) |
 | Pointers in C | Basic | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/pointer-in-c) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/C%20PRACTICE/Introduction/Pointers%20in%20C/Solution.c) |
+
+
+[© Kartik Gupta](https://kartikgupta.tech/)
+
+The fair use of codes is allowed.
