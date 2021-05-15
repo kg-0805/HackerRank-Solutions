@@ -13,6 +13,6 @@
 | 10 Days of JavaScript | Tutorials | [Hackerrank 10 Days of JavaScript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) | [Hackerrank 10 Days of JavaScript Solution](https://github.com/kg-0805/HackerRank-Solutions/tree/main/10%20Days%20of%20JavaScript) |
 | ProjectEuler+ | Contest | [Hackerrank ProjectEuler+](https://www.hackerrank.com/contests/projecteuler/challenges) | [Hackerrank ProjectEuler+ Solution](https://github.com/kg-0805/HackerRank-Solutions/tree/main/Project%20Euler) |
 
-© Kartik Gupta
+[© Kartik Gupta](https://kartikgupta.tech/)
 
 The fair use of codes is allowed.
