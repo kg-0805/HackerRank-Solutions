@@ -7,7 +7,6 @@
 | Post Transition | Basic | Hard | 50 | [Hackerrank](https://www.hackerrank.com/challenges/post-transition) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/C%20PRACTICE/Structs%20and%20Enums/Post%20Transition/Solution.c) |
 | Structuring the Document | Basic | Hard | 60 | [Hackerrank](https://www.hackerrank.com/challenges/structuring-the-document) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/C%20PRACTICE/Structs%20and%20Enums/Structuring%20the%20Document/Solution.c) |
 
-
 [© Kartik Gupta](https://kartikgupta.tech/)
 
 The fair use of codes is allowed.
