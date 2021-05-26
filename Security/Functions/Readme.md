@@ -3,11 +3,11 @@
 | Challenge Name | Skill | Difficulty | Max Score | Hackerrank Link | Solution Link | Language Used |
 | --- | --- | --- | --- | --- | --- | --- |
 | Security Functions | Problem Solving (Basic) | Easy | 5 | [Hackerrank](https://www.hackerrank.com/challenges/security-tutorial-functions/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Functions/Solution.java) | JAVA 8 |
-| Keyword Transposition Cipher | - | Easy | 5 | [Hackerrank](https://www.hackerrank.com/challenges/keyword-transposition-cipher/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Cryptography/Keyword%20Transposition%20Cipher/Solution.java) | JAVA 7 |
-| Basic Cryptanalysis | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/basic-cryptanalysis/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Cryptography/Basic%20Cryptanalysis/Solution.java) | JAVA 7 |
-| PRNG Sequence Guessing | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/prng-sequence-guessing/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Cryptography/PRNG%20Sequence%20Guessing/Solution.java) | JAVA 8 |
-| Keyword Transposition Cipher | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/keyword-transposition-cipher/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Cryptography/Keyword%20Transposition%20Cipher/Solution.java) | JAVA 7 |
-| Basic Cryptanalysis | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/basic-cryptanalysis/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Cryptography/Basic%20Cryptanalysis/Solution.java) | JAVA 7 |
+| Security Functions II | - | Easy | 5 | [Hackerrank](https://www.hackerrank.com/challenges/security-function-ii/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Functions%20II/Solution.java) | JAVA 8 |
+| Security Bijective Functions | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/security-bijective-functions/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Bijective%20Functions/Solution.java) | JAVA 8 |
+| Security Function Inverses | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/security-inverse-of-a-function/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Function%20Inverses/Solution.java) | JAVA 8 |
+| Security Permutations | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/security-tutorial-permutations/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Permutations/Solution.java) | JAVA 8 |
+| Security Involution | - | Easy | 10 | [Hackerrank](https://www.hackerrank.com/challenges/security-involution/problem) | [Solution](https://github.com/kg-0805/HackerRank-Solutions/blob/main/Security/Functions/Security%20Involution/Solution.java) | JAVA 8 |
 
 
 [© Kartik Gupta](https://kartikgupta.tech/)
