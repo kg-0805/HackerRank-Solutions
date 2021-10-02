@@ -18,4 +18,4 @@
 
 [© Kartik Gupta](https://kartikgupta.tech/)
 
-The fair use of codes is allowed.
+The fair use of codes is allowed. 
